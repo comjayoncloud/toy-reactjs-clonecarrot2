@@ -1,0 +1,23 @@
+.MenuBar {
+  display: fixed;
+  height: 60px;
+  max-width: auto;
+
+  .Menu {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+
+    .Menu-logo {
+      margin-left: 50px;
+      padding-left: 10px;
+      height: 40px;
+      width: 140px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
