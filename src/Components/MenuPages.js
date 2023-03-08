@@ -3,13 +3,23 @@ import "../Scss/MenuPages.scss";
 export default function MenuPages() {
   return (
     <div className="MenuPages">
-      <nav>
+      <nav className="MenuPagesNav">
         <ul>
-          <li>중고거래</li>
-          <li>동네가게</li>
-          <li>알바</li>
-          <li>부동산직거래</li>
-          <li>중고차직거래</li>
+          <li>
+            <a href="http://localhost:3000">중고거래</a>
+          </li>
+          <li>
+            <a href="#!">동네가게</a>
+          </li>
+          <li>
+            <a href="#!">알바</a>
+          </li>
+          <li>
+            <a href="#!">부동산 직거래</a>
+          </li>
+          <li>
+            <a href="#!">중고차 직거래</a>
+          </li>
         </ul>
       </nav>
     </div>

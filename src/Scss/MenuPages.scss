@@ -1,9 +1,22 @@
 .MenuPages {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
-  div {
-    padding-left: 10px;
-    padding-right: 10px;
+  .MenuPagesNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    ul {
+      padding-top: 15px;
+      li {
+        list-style: none;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        a {
+          text-decoration: none;
+          color: grey;
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
