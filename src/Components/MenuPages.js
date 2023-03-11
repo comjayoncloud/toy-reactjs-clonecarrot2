@@ -4,7 +4,7 @@ export default function MenuPages() {
   return (
     <div className="MenuPages">
       <nav className="MenuPagesNav">
-        <ul>
+        <ul className="MenuPageNav-ul">
           <li>
             <a href="http://localhost:3000">중고거래</a>
           </li>
