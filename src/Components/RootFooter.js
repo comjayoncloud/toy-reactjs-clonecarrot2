@@ -17,6 +17,7 @@ export default function RootFooter() {
     "https://cdn-icons-png.flaticon.com/128/3848/3848800.png  ";
   const img_naver =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Jv-IjKeQ_vwEv7Y2qE-sKo36LHN9ANpkHpoa0ifRnhH3_C1u54aNfvDZeNYLXI7ytBk&usqp=CAU";
+
   return (
     <footer className="RootFooter">
       <div className="RootFooter-Container">
@@ -126,15 +127,45 @@ export default function RootFooter() {
                   </a>
                 </div>
 
-                <div>
-                  <DropdownButton className="DropdownButton" title="한국">
+                <div className="DropdownButton">
+                  <DropdownButton title="한국">
                     <Dropdown.Item href="#/action-1">한국</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">영국</Dropdown.Item>
                   </DropdownButton>
                 </div>
               </nav>
             </div>
           </div>
-          <div>gg</div>
+          <div className="RootFooter-Container-2-Company-Etc">
+            <div>
+              <div>
+                <span>제휴 문의</span>
+              </div>
+              <div>
+                <span>광고 문의</span>
+              </div>
+              <div>
+                <span>PR 문의</span>
+              </div>
+              <div>
+                <span>IR 문의</span>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span>이용약관</span>
+              </div>
+              <div>
+                <span>개인정보처리방침</span>
+              </div>
+              <div>
+                <span>위치기반서비스 이용약관</span>
+              </div>
+              <div>
+                <span>이용자보호 비전과 계획</span>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </footer>

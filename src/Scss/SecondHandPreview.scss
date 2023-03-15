@@ -1,21 +1,30 @@
 .SecondHandPreview {
   padding-top: 30px;
-  .PreviewContainer {
+  .PreviewContainer-1 {
+    background-color: rgb(253, 236, 204);
+  }
+  .PreviewContainer-2 {
+    background-color: white;
+  }
+  .PreviewContainer-1,
+  .PreviewContainer-2 {
     padding-top: 25px;
     display: flex;
     height: 1000px;
-
     .PreviewContent {
       display: flex;
       width: 50%;
       align-items: center;
-      .PreviewContent-Subject {
-        font-size: 40px;
-        padding-left: 20%;
-      }
-      .PreviewContent-Content {
-        font-size: 20px;
-        padding-left: 20%;
+      > div {
+        width: 100%;
+        .PreviewContent-Subject {
+          font-size: 40px;
+          padding-left: 20%;
+        }
+        .PreviewContent-Content {
+          font-size: 20px;
+          padding-left: 20%;
+        }
       }
     }
     .PreviewImg {
